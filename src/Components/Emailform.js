@@ -192,7 +192,7 @@ function ComplaintForm() {
 <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-900 via-gray-800 to-gray-900 text-white">
   {/* Logo and College Name */}
   <div className="mb-6 flex items-center">
-    <img src="../public/College.png" alt="College Logo" className="w-16 h-16 rounded-full bg-white p-1 mr-4" />
+    <img src="public/College.png" alt="College Logo" className="w-16 h-16 rounded-full bg-white p-1 mr-4" />
     <h1 className="text-2xl font-extrabold">Global Institute of Engineering and Technology</h1>
   </div>
 
