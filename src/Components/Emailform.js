@@ -21,10 +21,10 @@ const emails = [
   { value: 'manojmunusamy2003@gmail.com', label: 'Joint Secretary' },
   { value: 'sakthibalaji03@gmail.com', label: 'Editor, Magazine Secretary' },
   { value: 'sanjaystr2001@gmail.com', label: 'Social Service Secretary' },
-  { value: 'logukaruna28@gmail.com', label: 'General Sports Secretary' },
-  { value: 'indrakaruna24@gmail.com', label: 'Symposium & Competition Secretary' },
+  { value: 'Ganapathithalapathi132@gmail.com', label: 'General Sports Secretary' },
+  { value: 'dineshboopathy990@gmail.com', label: 'Symposium & Competition Secretary' },
   { value: 'logukaruna28@gmail.com', label: 'Career Growth Secretary' },
-  { value: 'indrakaruna24@gmail.com', label: 'Culturals & Fine Arts Secretary' },
+  { value: 'tharunkuppuswamy5@gmail.com', label: 'Culturals & Fine Arts Secretary' },
   { value: 'sudharsan21sudha@gmail.com', label: 'Student Council Secretary' },
 ];
 
