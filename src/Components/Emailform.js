@@ -198,7 +198,7 @@ function ComplaintForm({img}) {
 
   {/* Complaint Form */}
   <div className="container w-full sm:w-3/4 m-4 md:w-1/2 lg:w-1/3 bg-gray-900 p-4 sm:p-8 rounded-lg shadow-lg sm:m-4">
-    <h2 className="text-center text-3xl font-extrabold mb-6">Query Form:</h2>
+    <h2 className="text-center text-3xl font-extrabold mb-6">Query Form</h2>
     <form onSubmit={SubmitHandler}>
       <div className="mb-4">
         <label htmlFor="name" className="text-gray-300 font-semibold float-left">Your Name:</label>
