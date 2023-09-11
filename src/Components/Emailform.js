@@ -14,18 +14,18 @@ const departmentOptions = [
 
 const emails = [
   { value: 'principal@getedu.in', label: 'Principal' },
-  { value: 'jprajesh25@gmail.com', label: 'President boy' },
-  { value: 'sivaranjanikuppan1129@gmail.com', label: 'President Girl' },
-  { value: 'poojakodi558@gmail.com', label: 'Vice President' },
-  { value: 'nithishff16@gmail.com', label: 'General Secretary' },
-  { value: 'manojmunusamy2003@gmail.com', label: 'Joint Secretary' },
-  { value: 'sakthibalaji03@gmail.com', label: 'Editor, Magazine Secretary' },
-  { value: 'sanjaystr2001@gmail.com', label: 'Social Service Secretary' },
-  { value: 'Ganapathithalapathi132@gmail.com', label: 'General Sports Secretary' },
-  { value: 'dineshboopathy990@gmail.com', label: 'Symposium & Competition Secretary' },
-  { value: 'logukaruna28@gmail.com', label: 'Career Growth Secretary' },
-  { value: 'tharunkuppuswamy5@gmail.com', label: 'Culturals & Fine Arts Secretary' },
-  { value: 'sudharsan21sudha@gmail.com', label: 'Student Council Secretary' },
+  { value: 'jprajesh25@gmail.com', label: 'President boy-Rajesh' },
+  { value: 'sivaranjanikuppan1129@gmail.com', label: 'President Girl-Sivaranji' },
+  { value: 'poojakodi558@gmail.com', label: 'Vice President-Porkodi' },
+  { value: 'nithishff16@gmail.com', label: 'General Secretary-Nithish' },
+  { value: 'manojmunusamy2003@gmail.com', label: 'Joint Secretary-Manoj' },
+  { value: 'sakthibalaji03@gmail.com', label: 'Editor, Magazine Secretary-Shakthi Balaji' },
+  { value: 'sanjaystr2001@gmail.com', label: 'Social Service Secretary-Sanjay' },
+  { value: 'Ganapathithalapathi132@gmail.com', label: 'General Sports Secretary-Ganapathi' },
+  { value: 'dineshboopathy990@gmail.com', label: 'Symposium & Competition Secretary-Dinesh Boopathi' },
+  { value: 'logukaruna28@gmail.com', label: 'Career Growth Secretary-Logu' },
+  { value: 'tharunkuppuswamy5@gmail.com', label: 'Culturals & Fine Arts Secretary-TharunKumar' },
+  { value: 'sudharsan21sudha@gmail.com', label: 'Student Council Secretary-Sudharsan' },
 ];
 
 const dropDownStyles = {
@@ -53,7 +53,7 @@ const dropDownStyles = {
     }
   }
 };
-function ComplaintForm() {
+function ComplaintForm({img}) {
   
   const defaultEmail = "logusca28@gmail.com";
   
@@ -128,7 +128,7 @@ function ComplaintForm() {
                 <td>${formData.department}</td>
               </tr>
               <tr>
-                <th>Complaint/Concern</th>
+                <th>Query/Concern</th>
                 <td>${formData.complaint}</td>
               </tr>
             </table>
@@ -192,13 +192,13 @@ function ComplaintForm() {
 <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-900 via-gray-800 to-gray-900 text-white">
   {/* Logo and College Name */}
   <div className="mb-6 flex items-center">
-    <img src="public/College.png" alt="College Logo" className="w-16 h-16 rounded-full bg-white p-1 mr-4" />
+    <img src={img} alt="College Logo" className="w-16 h-16 rounded-full bg-white p-1 mr-4" />
     <h1 className="text-2xl font-extrabold">Global Institute of Engineering and Technology</h1>
   </div>
 
   {/* Complaint Form */}
   <div className="container w-full sm:w-3/4 m-4 md:w-1/2 lg:w-1/3 bg-gray-900 p-4 sm:p-8 rounded-lg shadow-lg sm:m-4">
-    <h2 className="text-center text-3xl font-extrabold mb-6">Complaint Form</h2>
+    <h2 className="text-center text-3xl font-extrabold mb-6">Query Form:</h2>
     <form onSubmit={SubmitHandler}>
       <div className="mb-4">
         <label htmlFor="name" className="text-gray-300 font-semibold float-left">Your Name:</label>
@@ -241,7 +241,7 @@ function ComplaintForm() {
       </div>
       <div className="mb-4">
         <label htmlFor="to" className="text-gray-300 font-semibold float-left">To:</label><br></br>
-        <div className="relative mt-2">
+        <div className="relative mt-2 text-left">
           <Select
             id='to'
             placeholder="Select People"
@@ -251,12 +251,12 @@ function ComplaintForm() {
             value={emails.filter((option) => formData.to.includes(option.value))}
             onChange={handleEmailChange}
             menuPlacement="bottom"
-            isSearchable
+            isSearchable={false}
           />
         </div>
       </div>
       <div className="mb-4">
-        <label htmlFor="complaint" className="text-gray-300 font-semibold float-left">Complaint:</label>
+        <label htmlFor="complaint" className="text-gray-300 font-semibold float-left">Query/Concern:</label>
         <textarea
           name="complaint"
           id='complaint'
