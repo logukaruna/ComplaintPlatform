@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ComplaintPlatform/static/css/main.61aadf09.css",
-    "main.js": "/ComplaintPlatform/static/js/main.9f7c7de9.js",
+    "main.js": "/ComplaintPlatform/static/js/main.a546a4cc.js",
     "static/js/787.aff19329.chunk.js": "/ComplaintPlatform/static/js/787.aff19329.chunk.js",
     "static/media/College.png": "/ComplaintPlatform/static/media/College.0bf0d4d4cb2e587cb019.png",
     "index.html": "/ComplaintPlatform/index.html",
     "main.61aadf09.css.map": "/ComplaintPlatform/static/css/main.61aadf09.css.map",
-    "main.9f7c7de9.js.map": "/ComplaintPlatform/static/js/main.9f7c7de9.js.map",
+    "main.a546a4cc.js.map": "/ComplaintPlatform/static/js/main.a546a4cc.js.map",
     "787.aff19329.chunk.js.map": "/ComplaintPlatform/static/js/787.aff19329.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.61aadf09.css",
-    "static/js/main.9f7c7de9.js"
+    "static/js/main.a546a4cc.js"
   ]
 }
