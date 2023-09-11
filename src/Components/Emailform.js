@@ -14,18 +14,18 @@ const departmentOptions = [
 
 const emails = [
   { value: 'principal@getedu.in', label: 'Principal' },
-  { value: 'jprajesh25@gmail.com', label: 'President boy-Rajesh' },
-  { value: 'sivaranjanikuppan1129@gmail.com', label: 'President Girl-Sivaranji' },
-  { value: 'poojakodi558@gmail.com', label: 'Vice President-Porkodi' },
-  { value: 'nithishff16@gmail.com', label: 'General Secretary-Nithish' },
-  { value: 'manojmunusamy2003@gmail.com', label: 'Joint Secretary-Manoj' },
-  { value: 'sakthibalaji03@gmail.com', label: 'Editor, Magazine Secretary-Shakthi Balaji' },
-  { value: 'sanjaystr2001@gmail.com', label: 'Social Service Secretary-Sanjay' },
-  { value: 'Ganapathithalapathi132@gmail.com', label: 'General Sports Secretary-Ganapathi' },
-  { value: 'dineshboopathy990@gmail.com', label: 'Symposium & Competition Secretary-Dinesh Boopathi' },
-  { value: 'logukaruna28@gmail.com', label: 'Career Growth Secretary-Logu' },
-  { value: 'tharunkuppuswamy5@gmail.com', label: 'Culturals & Fine Arts Secretary-TharunKumar' },
-  { value: 'sudharsan21sudha@gmail.com', label: 'Student Council Secretary-Sudharsan' },
+  { value: 'jprajesh25@gmail.com', label: 'President boy' },
+  { value: 'sivaranjanikuppan1129@gmail.com', label: 'President Girl' },
+  { value: 'poojakodi558@gmail.com', label: 'Vice President' },
+  { value: 'nithishff16@gmail.com', label: 'General Secretary' },
+  { value: 'manojmunusamy2003@gmail.com', label: 'Joint Secretary' },
+  { value: 'sakthibalaji03@gmail.com', label: 'Editor, Magazine Secretary' },
+  { value: 'sanjaystr2001@gmail.com', label: 'Social Service Secretary' },
+  { value: 'Ganapathithalapathi132@gmail.com', label: 'General Sports Secretary' },
+  { value: 'dineshboopathy990@gmail.com', label: 'Symposium & Competition Secretary' },
+  { value: 'logukaruna28@gmail.com', label: 'Career Growth Secretary' },
+  { value: 'tharunkuppuswamy5@gmail.com', label: 'Culturals & Fine Arts Secretary' },
+  { value: 'sudharsan21sudha@gmail.com', label: 'Student Council Secretary' },
 ];
 
 const dropDownStyles = {
